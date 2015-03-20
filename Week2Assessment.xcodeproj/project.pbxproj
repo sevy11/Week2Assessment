@@ -14,6 +14,9 @@
 		26D5CFFF1ABC61EF00DD2323 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D5CFFE1ABC61EF00DD2323 /* Images.xcassets */; };
 		26D5D0021ABC61EF00DD2323 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26D5D0001ABC61EF00DD2323 /* LaunchScreen.xib */; };
 		26D5D00E1ABC61EF00DD2323 /* Week2AssessmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D5D00D1ABC61EF00DD2323 /* Week2AssessmentTests.m */; };
+		26D5D0191ABC639A00DD2323 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D5D0181ABC639A00DD2323 /* City.m */; };
+		26D5D01F1ABC714400DD2323 /* CityDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D5D01E1ABC714400DD2323 /* CityDetailViewController.m */; };
+		26D5D0221ABC7A1700DD2323 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D5D0211ABC7A1700DD2323 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		26D5D0071ABC61EF00DD2323 /* Week2AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week2AssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D5D00C1ABC61EF00DD2323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26D5D00D1ABC61EF00DD2323 /* Week2AssessmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Week2AssessmentTests.m; sourceTree = "<group>"; };
+		26D5D0171ABC639A00DD2323 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		26D5D0181ABC639A00DD2323 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		26D5D01D1ABC714400DD2323 /* CityDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CityDetailViewController.h; path = ../CityDetailViewController.h; sourceTree = "<group>"; };
+		26D5D01E1ABC714400DD2323 /* CityDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CityDetailViewController.m; path = ../CityDetailViewController.m; sourceTree = "<group>"; };
+		26D5D0201ABC7A1700DD2323 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		26D5D0211ABC7A1700DD2323 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,12 @@
 			children = (
 				26D5CFF51ABC61EF00DD2323 /* AppDelegate.h */,
 				26D5CFF61ABC61EF00DD2323 /* AppDelegate.m */,
+				26D5D0171ABC639A00DD2323 /* City.h */,
+				26D5D0181ABC639A00DD2323 /* City.m */,
+				26D5D0201ABC7A1700DD2323 /* WebViewController.h */,
+				26D5D0211ABC7A1700DD2323 /* WebViewController.m */,
+				26D5D01D1ABC714400DD2323 /* CityDetailViewController.h */,
+				26D5D01E1ABC714400DD2323 /* CityDetailViewController.m */,
 				26D5CFF81ABC61EF00DD2323 /* ViewController.h */,
 				26D5CFF91ABC61EF00DD2323 /* ViewController.m */,
 				26D5CFFB1ABC61EF00DD2323 /* Main.storyboard */,
@@ -220,7 +235,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				26D5CFFA1ABC61EF00DD2323 /* ViewController.m in Sources */,
+				26D5D0221ABC7A1700DD2323 /* WebViewController.m in Sources */,
 				26D5CFF71ABC61EF00DD2323 /* AppDelegate.m in Sources */,
+				26D5D0191ABC639A00DD2323 /* City.m in Sources */,
+				26D5D01F1ABC714400DD2323 /* CityDetailViewController.m in Sources */,
 				26D5CFF41ABC61EF00DD2323 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
