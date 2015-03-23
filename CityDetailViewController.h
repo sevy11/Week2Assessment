@@ -9,12 +9,16 @@
 #import <UIKit/UIKit.h>
 #import "City.h"
 
+
 @protocol CityViewDelegate <NSObject>
 
 -(void)bringCityBack;
 
 @end
 @interface CityDetailViewController : UIViewController
+@property NSString *city;
+@property NSString *state;
+@property UIImage *picture;
 
 
 @property (nonatomic, assign) id<CityViewDelegate> delegate;
