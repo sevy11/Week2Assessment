@@ -27,7 +27,7 @@
     self.cityTextField.text = self.city;
     self.stateTextField.text = self.state;
     self.cityPic.image = self.picture;
-    self.onWikiLabelTapped.text = self.url;
+    //self.onWikiLabelTapped.text = self.url;
 }
 
 - (IBAction)tapGestureToWiki:(UITapGestureRecognizer *)sender {
@@ -54,14 +54,14 @@
 
 }
 
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-
-    //City *CityTest = [cities objectAtIndex.indexPath];
-    WebViewController *wvc = segue.destinationViewController;
-
-    wvc.url = CityTest.url;
-}
-
+//-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+//
+//    //City *CityTest = [cities objectAtIndex.indexPath];
+//    WebViewController *wvc = segue.destinationViewController;
+//
+//    wvc.url = CityTest.url;
+//}
+//
 
 
 
