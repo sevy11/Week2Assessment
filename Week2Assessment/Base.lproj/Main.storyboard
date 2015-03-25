@@ -398,10 +398,10 @@
                                 <exclude reference="Scc-WK-KFX"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="S2P-ty-gEL"/>
                                 <exclude reference="0sG-DK-e6s"/>
                                 <exclude reference="f9V-xI-8Ye"/>
                                 <exclude reference="tBr-8c-Ja4"/>
-                                <exclude reference="S2P-ty-gEL"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -409,10 +409,10 @@
                                 <include reference="Scc-WK-KFX"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="S2P-ty-gEL"/>
                                 <include reference="0sG-DK-e6s"/>
                                 <include reference="f9V-xI-8Ye"/>
                                 <include reference="tBr-8c-Ja4"/>
-                                <include reference="S2P-ty-gEL"/>
                             </mask>
                         </variation>
                     </view>

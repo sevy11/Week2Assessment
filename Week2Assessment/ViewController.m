@@ -26,10 +26,10 @@ UITableViewDelegate>
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    City *cityOne = [[City alloc] initWithCityName:@"Detroit" andWithStateName:@"Michigan" andWithCityPic:[UIImage imageNamed:@"DetroitRiverlaker"]];
-    City *cityTwo = [[City alloc] initWithCityName:@"Chicago" andWithStateName:@"Illinois" andWithCityPic:[UIImage imageNamed:@"Chicago-At-Night-iphone-5-wallpaper-ilikewallpaper_com"]];
-    City *cityThree = [[City alloc] initWithCityName:@"Miami" andWithStateName:@"Florida" andWithCityPic:[UIImage imageNamed:@"miami"]];
-    City *cityFour = [[City alloc] initWithCityName:@"East Lansing" andWithStateName:@"Michigan" andWithCityPic:[UIImage imageNamed:@"City-of-East-Lansing"]];
+    City *cityOne = [[City alloc] initWithCityName:@"Detroit" andWithStateName:@"Michigan" andWithCityPic:[UIImage imageNamed:@"DetroitRiverlaker"] andWithURL:@"http://en.wikipedia.org/wiki/Detroit"];
+                     City *cityTwo = [[City alloc] initWithCityName:@"Chicago" andWithStateName:@"Illinois" andWithCityPic:[UIImage imageNamed:@"Chicago-At-Night-iphone-5-wallpaper-ilikewallpaper_com"] andWithURL:@"http://en.wikipedia.org/wiki/Chicago"];
+    City *cityThree = [[City alloc] initWithCityName:@"Miami" andWithStateName:@"Florida" andWithCityPic:[UIImage imageNamed:@"miami"] andWithURL:@"http://en.wikipedia.org/wiki/Miami"];
+    City *cityFour = [[City alloc] initWithCityName:@"East Lansing" andWithStateName:@"Michigan" andWithCityPic:[UIImage imageNamed:@"City-of-East-Lansing"] andWithURL:@"https://en.wikipedia.org/wiki/East_Lansing,_Michigan"];
 
     self.cities = [NSMutableArray arrayWithObjects:cityOne, cityTwo, cityThree, cityFour, nil];
 
@@ -80,6 +80,7 @@ UITableViewDelegate>
     vc.city = cityTest.city;
     vc.state = cityTest.state;
     vc.picture = cityTest.picture;
+    vc.url = cityTest.url;
 
     vc.title = cityTest.city;
 }

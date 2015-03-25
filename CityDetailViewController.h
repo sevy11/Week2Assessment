@@ -19,6 +19,7 @@
 @property NSString *city;
 @property NSString *state;
 @property UIImage *picture;
+@property NSString *url;
 
 
 @property (nonatomic, assign) id<CityViewDelegate> delegate;

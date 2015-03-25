@@ -14,7 +14,8 @@
 @property NSString *city;
 @property NSString *state;
 @property UIImage *picture;
+@property NSString *url;
 
--(instancetype)initWithCityName:(NSString *)city andWithStateName:(NSString *)state andWithCityPic:(UIImage *)picture;
+-(instancetype)initWithCityName:(NSString *)city andWithStateName:(NSString *)state andWithCityPic:(UIImage *)picture andWithURL:(NSString *)url;
 
 @end

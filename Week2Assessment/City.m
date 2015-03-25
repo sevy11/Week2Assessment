@@ -10,12 +10,13 @@
 
 @implementation City
 
--(instancetype)initWithCityName:(NSString *)city andWithStateName:(NSString *)state andWithCityPic:(UIImage *)picture    {
+-(instancetype)initWithCityName:(NSString *)city andWithStateName:(NSString *)state andWithCityPic:(UIImage *)picture andWithURL:(NSString *)url   {
     self = [super   init];
     if (self) {
         self.city = city;
         self.state = state;
         self.picture = picture;
+        self.url = url;
     }
     return self;
 

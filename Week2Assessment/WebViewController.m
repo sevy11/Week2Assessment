@@ -7,6 +7,8 @@
 //
 
 #import "WebViewController.h"
+#import "City.h"
+#import "CityDetailViewController.h"
 
 @interface WebViewController ()
 <UIWebViewDelegate>
@@ -19,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    [self goToURLString:@"http://www.wikipedia.com"];
+    [self goToURLString:@"http://en.wikipedia.org/wiki/Detroit"];
 
     self.webView.delegate = self;
 
@@ -30,6 +32,8 @@
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [self.webView loadRequest:request];
 }
+
+
 
 
 @end
